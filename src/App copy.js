@@ -2,9 +2,6 @@ import React from 'react';
 // import { useEffect, useState } from 'react';
 // import io from 'socket.io-client';
 import Ai from './Ai';
-import AdminChat from './AdminChat';
-import ConsultantChat from './ConsultantChat ';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 // const socket = io('http://localhost:4000');
 
@@ -70,8 +67,7 @@ function App() {
     //   />
     //   <button onClick={sendMessage}>Gửi</button>
     // </div>
-    // <Ai />
-    <ConsultantChat  />
+    <Ai />
   );
 }
 
